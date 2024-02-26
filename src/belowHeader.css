@@ -1,0 +1,58 @@
+.flex-container{
+    display: flex;
+    height: 30px;
+}
+
+.flex-container p{
+    line-height: 0px;
+    margin-right: 30px;
+    
+}
+
+
+.additional-component{
+    margin-left: 16%;
+    line-height: 10px;
+    margin-right: 18%;
+}
+
+.additional-component h2{
+    font-size: 48px;
+   line-height: 30px;
+   margin-bottom: 20px;
+
+}
+
+.bottom-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Center content vertically */
+    height: 30px; /* Set a specific height if needed */
+    /* Add any additional styling as needed */
+    margin-right: 30px;
+  }
+
+  .bottom-text-container p{
+    margin-right: 70px;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .additional-component hr{
+    width: 1024px;
+  }
+
+  
+.four-text-container {
+    display: flex;
+    /* Center content vertically */
+    margin-top: 20px;
+    /* Add margin as needed */
+  }
+
+  .four-text-container p {
+   font-size: 14px;
+    line-height: 0px;
+    margin-right: 20px;
+  }

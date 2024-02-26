@@ -1,0 +1,108 @@
+.discount-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 40px;
+    gap: 10px;
+    height: 400px;
+    width: 700px;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.discount-div{
+  
+    height: 370px;
+    width: 500px;  
+  }
+
+.discount-column1{
+  
+    height: 250px;
+    width: 200px;
+  }
+
+  .discount-column3{
+     height: 370px;
+     width: 320px;
+    
+  }
+
+  .discount-view{
+    background-color:  #1B88F4;
+    color: aliceblue;
+    width: 232px;
+    height: 48px;
+    border-radius: 12px;
+    margin-top: 200px;
+    margin-left: 43px;
+    font-size: 16px;
+  }
+
+  .li{
+    list-style: none;
+    margin-left: 10px;
+    line-height: 25px;
+  }
+
+  .p1{
+    margin-left: 20px;
+    height: 15px;
+    margin-top: 10px;
+  }
+
+  .discount{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #cadcee;
+    width: 58px;
+    height: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .discount-text{
+    margin-left: 20px;
+  }
+  .box{
+    width: 490px;
+    height: 116px;
+    border-radius: 12px;
+    background: #FFF4ED;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.small-box{
+    display: flex;
+    margin-left: 10px;
+}
+.nums{
+    width: 24px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1B88F4;
+    background-color: white;
+    padding:2px;
+    margin:4px
+}
+.text1{
+    width: 196px; 
+    height: 24px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #4B5665;
+    padding: 2px;
+    margin: 4px;
+}
+
+.advantages{
+    display: flex;
+}
