@@ -13,6 +13,7 @@
   .card-container {
     display: flex;
     text-align: center;
+    margin-right: 10%;
   }
 
   .related-cards{

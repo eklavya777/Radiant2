@@ -6,10 +6,16 @@
 .flex-container p{
     line-height: 0px;
     margin-right: 30px;
+    margin-left: 10px;
     
 }
 
-
+.tick2{
+ 
+  width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
 .additional-component{
     margin-left: 16%;
     line-height: 10px;
@@ -20,7 +26,9 @@
     font-size: 48px;
    line-height: 30px;
    margin-bottom: 20px;
-
+   color:  #2C384A;
+   font-weight: 100;
+   font-family: "Open Sans", sans-serif;
 }
 
 .bottom-text-container {
@@ -55,4 +63,33 @@
    font-size: 14px;
     line-height: 0px;
     margin-right: 20px;
+  }
+
+  @media ( min-width: 900px ) and (max-height:1026px){
+    .additional-component h2{
+      font-size: 42px;
+     line-height: 30px;
+     margin-bottom: 20px;
+     color:  #2C384A;
+  }
+
+  .additional-component hr{
+    width: 950px;
+  }
+
+  .bottom-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px; 
+    margin-right: 30px;
+
+  }
+
+  .bottom-text-container p{
+    padding: 3px;
+    font-size: 15px;
+    line-height: 10px;
+    margin-right: 20px;
+  }
   }

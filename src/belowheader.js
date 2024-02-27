@@ -8,7 +8,9 @@ const BelowHeader = () => {
       <h2>Best website builder in the US</h2>
       <hr className='hr'/>
       <div className="flex-container">
+      <img className='tick2' src={require('./tick2.png')} />
         <p>Latest updated - February 22,2020</p>
+        <img className='tick2' src={require('./infoImage.png')} />
         <p>Advertising Disclosure</p>
       </div>
       <hr className='hr'/>
